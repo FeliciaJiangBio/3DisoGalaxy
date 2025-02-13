@@ -1,6 +1,6 @@
 # 3DisoGalaxy
 
-![webGalaxy_2](https://github.com/user-attachments/assets/49c0e903-0586-4d10-b2c5-117bc4bd99dd)
+
 <img src="https://github.com/user-attachments/assets/49c0e903-0586-4d10-b2c5-117bc4bd99dd" width="100">
 
 
@@ -22,7 +22,8 @@ For the [Journal Name] Manuscript: [Paper Title]
 
 # 3DisoGalaxy
 The second pipeline, called "TranStructomics," was used to evaluate translation ORFs and predict isoform structures across transcriptome-identified transcripts, ultimately constructing a protein structural similarity network, “3DisoGalaxy,” based on multiple structure alignment scores comparing isoform structures. Specifically, the predicted ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, supporting their participation in the translation process.  
-![Uploading Atlas_plan.png…]()
+![Atlas_plan](https://github.com/user-attachments/assets/32d0ddfd-540f-49fb-aab3-fd657c5e5d14)
+
 
 By combining BLASTP and HMMER methods, ORF sequences were predicted using TransDecoder and machine learning. After filtering out low-confidence and short ORFs, the longest ORF sequence was kept for each isoform, and AlphaFold-2.3 was utilized to predict protein structures. Structural similarity was then calculated using the TMalign method, collecting pairwise isoform similarities to construct a “protein universe.” Additionally, functional domains and GO term pathway annotations were assigned to the network based on UniProtKB databases.  
 
