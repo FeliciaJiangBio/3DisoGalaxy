@@ -1,7 +1,4 @@
-# 3DisoGalaxy
-
-
-<img src="https://github.com/user-attachments/assets/49c0e903-0586-4d10-b2c5-117bc4bd99dd" width="100">
+# 3DisoGalaxy<img src="https://github.com/user-attachments/assets/49c0e903-0586-4d10-b2c5-117bc4bd99dd" width="100">
 
 
 This Repository contains the complete software and documentation to execute the Long-Read-translation-structomics Workflow.
