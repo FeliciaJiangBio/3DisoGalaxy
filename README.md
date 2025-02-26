@@ -10,6 +10,8 @@ The breast cancer version of the final network, **“3DisoGalaxy”**, can be ac
 
 ![image](https://github.com/user-attachments/assets/b51f9134-de44-4a82-a0ee-d3fe9f88c90f)
 
+![image](https://github.com/user-attachments/assets/b3d61430-bc01-4d85-b222-c7d47179cb06)
+
 ![image](https://github.com/user-attachments/assets/0b9ef845-23d2-4cfd-8403-e479d1c00aa9)
 
 ## Abstract
