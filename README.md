@@ -28,8 +28,8 @@ The pipeline "3Diso-TransFold" (https://github.com/CityUHK-CompBio/TranStructomi
 
 By combining BLASTP and HMMER methods, ORF sequences were predicted using TransDecoder and machine learning. After filtering out low-confidence and short ORFs, the longest ORF sequence was kept for each isoform, and AlphaFold-2.3 was utilized to predict protein structures. Structural similarity was then calculated using the TMalign method, collecting pairwise isoform similarities to construct a “protein universe.” Additionally, functional domains and GO term pathway annotations were assigned to the network based on UniProtKB databases.  
 
-Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. A case study version of the final network, “3DisoGalaxy,” can be accessed at (3DisoGalaxy)[https://github.com/TJiangBio/3DisoGalaxy](https://github.com/TJiangBio/3DisoGalaxy/edit/main/README.md), and the “3DisoTransFold” pipeline for analyzing all data is available at [https://github.com/CityUHK-CompBio/3Diso-TransFold](https://github.com/CityUHK-CompBio/3Diso-TransFold).
-![DOI Badge](badge_url)
+Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. A case study version of the final network, “3DisoGalaxy”, can be accessed at <img src="https://github.com/user-attachments/assets/d02384b5-b85f-4716-b657-7a122ca92d02" width="100"> https://github.com/TJiangBio/3DisoGalaxy, and the “3DisoTransFold” pipeline for analyzing all data is available at <img src="https://github.com/user-attachments/assets/fc44d469-1204-4611-9de2-44664116f54b" width="100"> https://github.com/CityUHK-CompBio/3Diso-TransFold.
+
 
 ## Workflow Overview
 ![image](https://github.com/user-attachments/assets/d0837471-63ab-4c45-a08f-7454ffe03624)
