@@ -52,7 +52,7 @@ When the alternative splicing event result in different mature mRNA translated i
 
 
 # 3DisoGalaxy & 3DisoTranFold
-The pipeline "3Diso-TransFold" [https://github.com/CityUHK-CompBio/TranStructomics](https://github.com/CityUHK-CompBio/3Diso-TransFold), was used to evaluate translation ORFs and predict isoform structures across transcriptome-identified transcripts, ultimately constructing a protein structural similarity network, “3DisoGalaxy,” based on multiple structure alignment scores comparing isoform structures. Specifically, the predicted ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, supporting their participation in the translation process.  
+The pipeline <img src="https://github.com/user-attachments/assets/1eaeaf5c-081d-4d76-b816-bca55d979ad3" width="100"> [https://github.com/CityUHK-CompBio/TranStructomics](https://github.com/CityUHK-CompBio/3Diso-TransFold), was used to evaluate translation ORFs and predict isoform structures across transcriptome-identified transcripts, ultimately constructing a protein structural similarity network, “3DisoGalaxy,” based on multiple structure alignment scores comparing isoform structures. Specifically, the predicted ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, supporting their participation in the translation process.  
 
 
 
@@ -66,8 +66,9 @@ A case study version of the final network, **“3DisoGalaxy”**, can be accesse
 </a>  
 and the **“3DisoTransFold”** pipeline for analyzing all data is available at  
 <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
-    <img src="https://github.com/user-attachments/assets/fc44d469-1204-4611-9de2-44664116f54b" width="100">
+    <img src="https://github.com/user-attachments/assets/1eaeaf5c-081d-4d76-b816-bca55d979ad3" width="100">
 </a>
+
 
 
 
