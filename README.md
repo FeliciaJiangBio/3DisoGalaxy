@@ -1,10 +1,11 @@
-# <img src="https://github.com/user-attachments/assets/d02384b5-b85f-4716-b657-7a122ca92d02" width="100">3DisoGalaxy
+# <img src="https://github.com/user-attachments/assets/4468c6a3-bbbe-4a6c-ade9-aab1437d010d" width="100">3DisoGalaxy
+
 
 This Repository contains the complete software and documentation to execute the Long-Read-translation-structomics Workflow.
 The breast cancer version of the final network, **“3DisoGalaxy”**, can be accessed at  
-
-</a>  (http://hkwanglab-compbio.com:3831)<a href="http://hkwanglab-compbio.com:3831/">
+<a href="http://hkwanglab-compbio.com:3831/">
     <img src="https://github.com/user-attachments/assets/d02384b5-b85f-4716-b657-7a122ca92d02" width="100">
+</a>  (http://hkwanglab-compbio.com:3831)
 
 ## 1.Breast cancer alternative splicing landscape with protein isoform structure
 ![image](https://github.com/user-attachments/assets/4429c7c6-8382-457b-bb00-bbc22bf8b3fe)
