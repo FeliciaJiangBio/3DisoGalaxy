@@ -22,17 +22,17 @@ For the [Journal Name] Manuscript: [Paper Title]
 | Validation set       | PRJNA486023        | BC Tissue         | 90          | TNBC, NAT                     | mRNA-seq                        | Illumina HiSeq         | Clinical info, RFS                          |
 | Fusion               | PRJNA251383        | BC Tissue         | 140         | TNBC, ER, NAT                 | mRNA-seq                        | Illumina HiSeq 2000    | Clinical information                        |
 | Her2                 | PRJNA1018108       | BC Tissue         | 156         | Her2, NAT                     | mRNA-seq                        | NovaSeq 6000           | -                                           |
-| Ribosome profiling   | A132 (PRJNA898352) | BC Cell line      | 24          | -                             | Ribo-seq & mRNA-seq             | Illumina HiSeq 2500    | -                                           |
-| Ribosome profiling   | A133 (PRJNA523167) | BC Cell line      | 18          | -                             | Ribo-seq                        | Illumina HiSeq 4000    | -                                           |
+| Ribosome profiling   |PRJNA898352 | BC Cell line      | 24          | -                             | Ribo-seq & mRNA-seq             | Illumina HiSeq 2500    | -                                           |
+| Ribosome profiling   | PRJNA523167 | BC Cell line      | 18          | -                             | Ribo-seq                        | Illumina HiSeq 4000    | -                                           |
 
-# 3DisoGalaxy
-The second pipeline, called "TranStructomics," was used to evaluate translation ORFs and predict isoform structures across transcriptome-identified transcripts, ultimately constructing a protein structural similarity network, “3DisoGalaxy,” based on multiple structure alignment scores comparing isoform structures. Specifically, the predicted ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, supporting their participation in the translation process.  
+# 3DisoGalaxy & 3DisoTranFold
+The pipeline "3Diso-TransFold" (https://github.com/CityUHK-CompBio/TranStructomics](https://github.com/CityUHK-CompBio/TranStructomics), was used to evaluate translation ORFs and predict isoform structures across transcriptome-identified transcripts, ultimately constructing a protein structural similarity network, “3DisoGalaxy,” based on multiple structure alignment scores comparing isoform structures. Specifically, the predicted ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, supporting their participation in the translation process.  
 ![Atlas_plan](https://github.com/user-attachments/assets/32d0ddfd-540f-49fb-aab3-fd657c5e5d14)
 
 
 By combining BLASTP and HMMER methods, ORF sequences were predicted using TransDecoder and machine learning. After filtering out low-confidence and short ORFs, the longest ORF sequence was kept for each isoform, and AlphaFold-2.3 was utilized to predict protein structures. Structural similarity was then calculated using the TMalign method, collecting pairwise isoform similarities to construct a “protein universe.” Additionally, functional domains and GO term pathway annotations were assigned to the network based on UniProtKB databases.  
 
-Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. A case study version of the final network, “3DisoGalaxy,” can be accessed at [http://hkwanglab-compbio.com:3831/](http://hkwanglab-compbio.com:3831/), and the “TranStructomics” pipeline for analyzing all data is available at [https://github.com/CityUHK-CompBio/TranStructomics](https://github.com/CityUHK-CompBio/TranStructomics).
+Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. A case study version of the final network, “3DisoGalaxy,” can be accessed at [http://hkwanglab-compbio.com:3831/](http://hkwanglab-compbio.com:3831/), and the “3DisoTransFold” pipeline for analyzing all data is available at [https://github.com/CityUHK-CompBio/TranStructomics](https://github.com/CityUHK-CompBio/TranStructomics).
 ![DOI Badge](badge_url)
 
 We acknowledge [acknowledgement details].
