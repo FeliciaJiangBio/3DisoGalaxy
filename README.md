@@ -2,6 +2,9 @@
 
 This Repository contains the complete software and documentation to execute the Long-Read-translation-structomics Workflow.
 
+## Abstract
+When the alternative splicing event result in different mature mRNA translated in the cell and diverse protein isoforms produced, they tend to affect disordered protein domains, which are often involved in functionally important protein–protein interactions304,310,311. Protein isoforms can also have differences in stability, localization, enzymatic activity and protein–nucleic acid interactions. The extent to which alternative splicing affects protein and/or cell function or, rather, represents a by-product of transcriptome noise is unclear. Breast cancer is one of the most prevalent cancer for women worldwide. Current studies categorize the breast cancer into several subtypes according to different receptors and will treat with different clinical methods. The heterogeneity of the breast cancer causes this distinct survival outcome difference, and alternative splicing is one of the mechanisms of the heterogeneity. In this study, a comprehensive survey of protein isoform structures in breast cancer tissue was conducted by integrating multiple omics. 90298 was annotated and filtered by integrating long-read RNAseq transcriptome analysis and short-read RNAseq. 79815 ORFs were identified using Ribosome profiling in total. Ultimately, 46202 protein isoforms were kept and predicted structures with AlphaFold2. The "3Diso-TransFold" pipeline constructing the “3DisoGalaxy” protein structural similarity network based on multiple structure alignment scores with evaluated translated ORFs and obtained isoform structures. ORFs from the master transcriptome were retained only if identified by Ribo-seq, supporting their translation. The network reveals breast cancer and TNBC-specific isoforms, enabling subtype-specific therapeutic screening and validation. 
+
 ## Digital Object Identifiers
 
 For the [Journal Name] Manuscript: [Paper Title]
@@ -11,10 +14,16 @@ For the [Journal Name] Manuscript: [Paper Title]
 | [![DOI](badge_url)](doi_link) | Contains... |
 | [![DOI](badge_url)](doi_link) | Contains... |
 
-| Sequence Read Archive (SRA) Project Reference | Description |
-|---------------------------------------------|-------------|
-| PRJNA000000 | Description... |
-| PRJNA000000 | Description... |
+| Categories3 Dataset | Project No.        | Type              | Sample Size | Subtypes                      | Sequencing Method               | Sequencing Platform    | Additional Information                     |
+|----------------------|--------------------|-------------------|-------------|-------------------------------|----------------------------------|------------------------|--------------------------------------------|
+| Assembly             | PacBio (in-house)  | BC Tissue         | 35          | Basal, Her2, LumA, LumB, NAT  | PacBio long-read mRNA-seq        | PacBio Sequel 2        | Clinical info                               |
+| Discovery set        | PRJNA975550        | BC Tissue         | 86          | TNBC, Her2, LumA, LumB, NAT   | mRNA-seq                        | Illumina HiSeq 4000    | Clinical info cannot match, no RFS          |
+| Microbial            | PRJNA839244        | BC Tissue         | 23          | TNBC, Her2, LumA, LumB, NAT   | mRNA-seq                        | NextSeq 550            | Clinical info, no RFS                       |
+| Validation set       | PRJNA486023        | BC Tissue         | 90          | TNBC, NAT                     | mRNA-seq                        | Illumina HiSeq         | Clinical info, RFS                          |
+| Fusion               | PRJNA251383        | BC Tissue         | 140         | TNBC, ER, NAT                 | mRNA-seq                        | Illumina HiSeq 2000    | Clinical information                        |
+| Her2                 | PRJNA1018108       | BC Tissue         | 156         | Her2, NAT                     | mRNA-seq                        | NovaSeq 6000           | -                                           |
+| Ribosome profiling   | A132 (PRJNA898352) | BC Cell line      | 24          | -                             | Ribo-seq & mRNA-seq             | Illumina HiSeq 2500    | -                                           |
+| Ribosome profiling   | A133 (PRJNA523167) | BC Cell line      | 18          | -                             | Ribo-seq                        | Illumina HiSeq 4000    | -                                           |
 
 # 3DisoGalaxy
 The second pipeline, called "TranStructomics," was used to evaluate translation ORFs and predict isoform structures across transcriptome-identified transcripts, ultimately constructing a protein structural similarity network, “3DisoGalaxy,” based on multiple structure alignment scores comparing isoform structures. Specifically, the predicted ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, supporting their participation in the translation process.  
