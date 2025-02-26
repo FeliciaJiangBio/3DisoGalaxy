@@ -21,104 +21,7 @@ When the alternative splicing event result in different mature mRNA translated i
 | Ribosome profiling   |PRJNA898352 | BC Cell line      | 24          | -                             | Ribo-seq & mRNA-seq             | Illumina HiSeq 2500    | -                                           |
 | Ribosome profiling   | PRJNA523167 | BC Cell line      | 18          | -                             | Ribo-seq                        | Illumina HiSeq 4000    | -                                           |
 
-<style>
-    table {
-        font-size: 12px;
-    }
-</style>
 
-<table>
-  <tr>
-    <th>Categories3 Dataset</th>
-    <th>Project No.</th>
-    <th>Type</th>
-    <th>Sample Size</th>
-    <th>Subtypes</th>
-    <th>Sequencing Method</th>
-    <th>Sequencing Platform</th>
-    <th>Additional Information</th>
-  </tr>
-  <tr>
-    <td>Assembly</td>
-    <td>PacBio (in-house)</td>
-    <td>BC Tissue</td>
-    <td>35</td>
-    <td>Basal, Her2, LumA, LumB, NAT</td>
-    <td>PacBio long-read mRNA-seq</td>
-    <td>PacBio Sequel 2</td>
-    <td>Clinical info</td>
-  </tr>
-  <tr>
-    <td>Discovery set</td>
-    <td>PRJNA975550</td>
-    <td>BC Tissue</td>
-    <td>86</td>
-    <td>TNBC, Her2, LumA, LumB, NAT</td>
-    <td>mRNA-seq</td>
-    <td>Illumina HiSeq 4000</td>
-    <td>Clinical info cannot match, no RFS</td>
-  </tr>
-  <tr>
-    <td>Microbial</td>
-    <td>PRJNA839244</td>
-    <td>BC Tissue</td>
-    <td>23</td>
-    <td>TNBC, Her2, LumA, LumB, NAT</td>
-    <td>mRNA-seq</td>
-    <td>NextSeq 550</td>
-    <td>Clinical info, no RFS</td>
-  </tr>
-  <tr>
-    <td>Validation set</td>
-    <td>PRJNA486023</td>
-    <td>BC Tissue</td>
-    <td>90</td>
-    <td>TNBC, NAT</td>
-    <td>mRNA-seq</td>
-    <td>Illumina HiSeq</td>
-    <td>Clinical info, RFS</td>
-  </tr>
-  <tr>
-    <td>Fusion</td>
-    <td>PRJNA251383</td>
-    <td>BC Tissue</td>
-    <td>140</td>
-    <td>TNBC, ER, NAT</td>
-    <td>mRNA-seq</td>
-    <td>Illumina HiSeq 2000</td>
-    <td>Clinical information</td>
-  </tr>
-  <tr>
-    <td>Her2</td>
-    <td>PRJNA1018108</td>
-    <td>BC Tissue</td>
-    <td>156</td>
-    <td>Her2, NAT</td>
-    <td>mRNA-seq</td>
-    <td>NovaSeq 6000</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Ribosome profiling</td>
-    <td>PRJNA898352</td>
-    <td>BC Cell line</td>
-    <td>24</td>
-    <td>-</td>
-    <td>Ribo-seq & mRNA-seq</td>
-    <td>Illumina HiSeq 2500</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Ribosome profiling</td>
-    <td>PRJNA523167</td>
-    <td>BC Cell line</td>
-    <td>18</td>
-    <td>-</td>
-    <td>Ribo-seq</td>
-    <td>Illumina HiSeq 4000</td>
-    <td>-</td>
-  </tr>
-</table>
 
 
 # 3DisoGalaxy & 3DisoTranFold
@@ -131,7 +34,7 @@ By combining BLASTP and HMMER methods, ORF sequences were predicted using TransD
 Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. 
 
 A case study version of the final network, **“3DisoGalaxy”**, can be accessed at  
-<a href="https://github.com/TJiangBio/3DisoGalaxy/edit/main/README.md">
+<a href="https://github.com/TJiangBio/3DisoGalaxy">
     <img src="https://github.com/user-attachments/assets/d02384b5-b85f-4716-b657-7a122ca92d02" width="100">
 </a>  
 and the **“3DisoTransFold”** pipeline for analyzing all data is available at  
