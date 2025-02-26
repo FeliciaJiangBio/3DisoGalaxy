@@ -21,9 +21,13 @@ The breast cancer version of the final network, **“3DisoGalaxy”**, can be ac
 
 ## Usage tutorial
 
+
+
+https://github.com/user-attachments/assets/ab669a3c-8670-448c-a235-6a9529bfa75d
 <video width="600" autoplay loop muted>
-  <source src="https://github.com/user-attachments/assets/106604a6-4c22-4b89-a9bf-73b900d3b910" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/ab669a3c-8670-448c-a235-6a9529bfa75d" type="video/mp4">
 </video>
+
 
 ## Abstract
 When the alternative splicing event result in different mature mRNA translated in the cell and diverse protein isoforms produced, they tend to affect disordered protein domains, which are often involved in functionally important protein–protein interactions304,310,311. Protein isoforms can also have differences in stability, localization, enzymatic activity and protein–nucleic acid interactions. The extent to which alternative splicing affects protein and/or cell function or, rather, represents a by-product of transcriptome noise is unclear. Breast cancer is one of the most prevalent cancer for women worldwide. Current studies categorize the breast cancer into several subtypes according to different receptors and will treat with different clinical methods. The heterogeneity of the breast cancer causes this distinct survival outcome difference, and alternative splicing is one of the mechanisms of the heterogeneity. In this study, a comprehensive survey of protein isoform structures in breast cancer tissue was conducted by integrating multiple omics. 90298 was annotated and filtered by integrating long-read RNAseq transcriptome analysis and short-read RNAseq. 79815 ORFs were identified using Ribosome profiling in total. Ultimately, 46202 protein isoforms were kept and predicted structures with AlphaFold2. The "3Diso-TransFold" pipeline constructing the “3DisoGalaxy” protein structural similarity network based on multiple structure alignment scores with evaluated translated ORFs and obtained isoform structures. ORFs from the master transcriptome were retained only if identified by Ribo-seq, supporting their translation. The network reveals breast cancer and TNBC-specific isoforms, enabling subtype-specific therapeutic screening and validation. 
