@@ -4,15 +4,11 @@ This Repository contains the complete software and documentation to execute the 
 
 ## Abstract
 When the alternative splicing event result in different mature mRNA translated in the cell and diverse protein isoforms produced, they tend to affect disordered protein domains, which are often involved in functionally important protein–protein interactions304,310,311. Protein isoforms can also have differences in stability, localization, enzymatic activity and protein–nucleic acid interactions. The extent to which alternative splicing affects protein and/or cell function or, rather, represents a by-product of transcriptome noise is unclear. Breast cancer is one of the most prevalent cancer for women worldwide. Current studies categorize the breast cancer into several subtypes according to different receptors and will treat with different clinical methods. The heterogeneity of the breast cancer causes this distinct survival outcome difference, and alternative splicing is one of the mechanisms of the heterogeneity. In this study, a comprehensive survey of protein isoform structures in breast cancer tissue was conducted by integrating multiple omics. 90298 was annotated and filtered by integrating long-read RNAseq transcriptome analysis and short-read RNAseq. 79815 ORFs were identified using Ribosome profiling in total. Ultimately, 46202 protein isoforms were kept and predicted structures with AlphaFold2. The "3Diso-TransFold" pipeline constructing the “3DisoGalaxy” protein structural similarity network based on multiple structure alignment scores with evaluated translated ORFs and obtained isoform structures. ORFs from the master transcriptome were retained only if identified by Ribo-seq, supporting their translation. The network reveals breast cancer and TNBC-specific isoforms, enabling subtype-specific therapeutic screening and validation. 
+![Atlas_plan](https://github.com/user-attachments/assets/32d0ddfd-540f-49fb-aab3-fd657c5e5d14)
 
 ## Digital Object Identifiers
 
-For the [Journal Name] Manuscript: [Paper Title]
 
-| DOI | Description |
-|-----|-------------|
-| [![DOI](badge_url)](doi_link) | Contains... |
-| [![DOI](badge_url)](doi_link) | Contains... |
 
 | Categories3 Dataset | Project No.        | Type              | Sample Size | Subtypes                      | Sequencing Method               | Sequencing Platform    | Additional Information                     |
 |----------------------|--------------------|-------------------|-------------|-------------------------------|----------------------------------|------------------------|--------------------------------------------|
@@ -27,17 +23,20 @@ For the [Journal Name] Manuscript: [Paper Title]
 
 # 3DisoGalaxy & 3DisoTranFold
 The pipeline "3Diso-TransFold" (https://github.com/CityUHK-CompBio/TranStructomics](https://github.com/CityUHK-CompBio/TranStructomics), was used to evaluate translation ORFs and predict isoform structures across transcriptome-identified transcripts, ultimately constructing a protein structural similarity network, “3DisoGalaxy,” based on multiple structure alignment scores comparing isoform structures. Specifically, the predicted ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, supporting their participation in the translation process.  
-![Atlas_plan](https://github.com/user-attachments/assets/32d0ddfd-540f-49fb-aab3-fd657c5e5d14)
+
 
 
 By combining BLASTP and HMMER methods, ORF sequences were predicted using TransDecoder and machine learning. After filtering out low-confidence and short ORFs, the longest ORF sequence was kept for each isoform, and AlphaFold-2.3 was utilized to predict protein structures. Structural similarity was then calculated using the TMalign method, collecting pairwise isoform similarities to construct a “protein universe.” Additionally, functional domains and GO term pathway annotations were assigned to the network based on UniProtKB databases.  
 
-Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. A case study version of the final network, “3DisoGalaxy,” can be accessed at [https://github.com/TJiangBio/3DisoGalaxy](https://github.com/TJiangBio/3DisoGalaxy/edit/main/README.md), and the “3DisoTransFold” pipeline for analyzing all data is available at [https://github.com/CityUHK-CompBio/3Diso-TransFold](https://github.com/CityUHK-CompBio/3Diso-TransFold).
+Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. A case study version of the final network, “3DisoGalaxy,” can be accessed at (3DisoGalaxy)[https://github.com/TJiangBio/3DisoGalaxy](https://github.com/TJiangBio/3DisoGalaxy/edit/main/README.md), and the “3DisoTransFold” pipeline for analyzing all data is available at [https://github.com/CityUHK-CompBio/3Diso-TransFold](https://github.com/CityUHK-CompBio/3Diso-TransFold).
 ![DOI Badge](badge_url)
 
-We acknowledge [acknowledgement details].
+## Workflow Overview
+![image](https://github.com/user-attachments/assets/d0837471-63ab-4c45-a08f-7454ffe03624)
 
-We acknowledge [additional acknowledgements].
+![Workflow Diagram](diagram_url)
+
+[Workflow description]
 
 ## How to use this repository and Quick Start
 
@@ -127,12 +126,7 @@ The pipeline comes with detailed documentation in the Wiki, including:
   - [Vignette 1]
   - [Vignette 2]
 
-## Workflow Overview
-![image](https://github.com/user-attachments/assets/d0837471-63ab-4c45-a08f-7454ffe03624)
 
-![Workflow Diagram](diagram_url)
-
-[Workflow description]
 
 ## Using Data Resources
 
@@ -146,6 +140,10 @@ Integrating multi-omics and AI methods to analyze alterative splicing-driven pro
 
 This is a joint project between [collaborating organizations].
 
+## Acknowledge
+
+We would like to extend our sincere gratitude to Cosmograph: GPU-accelerated Force Graph Layout and Rendering [Computer software]. Rokotyan, N., Stukova, O., Kolmakova D. & Ovsyannikov, D. (2022) for providing an intuitive and efficient platform for visualizing protein similarity networks, enabling us to rapidly explore complex topologies and cluster associations within our study. The ability to present these networks clearly played a crucial role in interpreting the relationships between protein structures and functions. We are also thankful to Mol for its advanced capabilities in visualizing protein structures in three dimensions. This tool allowed us to explore structural details and interactions with precision, offering critical insights into the underlying mechanisms of protein similarity and their biological relevance in the context of metastasis prediction. These visualization tools have been invaluable for data interpretation and for presenting our findings in an accessible, clear manner..
+
 ## Citation
 
 If you use this pipeline, please cite:
@@ -153,3 +151,9 @@ If you use this pipeline, please cite:
 ```
 Jiang, T., et al. (2025). The Structural Code of Breast Cancer Heterogeneity: Alternative Splicing-driven Proteoform Variation and Functional Diversification.
 ```
+For the [Journal Name] Manuscript: [Paper Title]
+
+| DOI | Description |
+|-----|-------------|
+| [![DOI](badge_url)](doi_link) | Contains... |
+| [![DOI](badge_url)](doi_link) | Contains... |
