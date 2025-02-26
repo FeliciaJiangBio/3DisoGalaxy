@@ -32,7 +32,7 @@ The pipeline "3Diso-TransFold" (https://github.com/CityUHK-CompBio/TranStructomi
 
 By combining BLASTP and HMMER methods, ORF sequences were predicted using TransDecoder and machine learning. After filtering out low-confidence and short ORFs, the longest ORF sequence was kept for each isoform, and AlphaFold-2.3 was utilized to predict protein structures. Structural similarity was then calculated using the TMalign method, collecting pairwise isoform similarities to construct a “protein universe.” Additionally, functional domains and GO term pathway annotations were assigned to the network based on UniProtKB databases.  
 
-Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. A case study version of the final network, “3DisoGalaxy,” can be accessed at [http://hkwanglab-compbio.com:3831/](http://hkwanglab-compbio.com:3831/), and the “3DisoTransFold” pipeline for analyzing all data is available at [https://github.com/CityUHK-CompBio/TranStructomics](https://github.com/CityUHK-CompBio/TranStructomics).
+Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. A case study version of the final network, “3DisoGalaxy,” can be accessed at [https://github.com/TJiangBio/3DisoGalaxy](https://github.com/TJiangBio/3DisoGalaxy/edit/main/README.md), and the “3DisoTransFold” pipeline for analyzing all data is available at [https://github.com/CityUHK-CompBio/3Diso-TransFold](https://github.com/CityUHK-CompBio/3Diso-TransFold).
 ![DOI Badge](badge_url)
 
 We acknowledge [acknowledgement details].
@@ -41,7 +41,7 @@ We acknowledge [additional acknowledgements].
 
 ## How to use this repository and Quick Start
 
-This workflow [brief workflow description]. To orient users [documentation overview].
+TORFs from the master transcriptome were retained only if identified by Ribo-seq, supporting their translation. Using BLASTP, HMMER, and machine learning, ORFs were predicted with TransDecoder, and after filtering low-confidence and short ORFs, the longest sequence per isoform was kept. AlphaFold-2.3 predicted protein structures, and TMalign calculated pairwise isoform similarities to build a “protein universe,” with functional domains and GO terms annotated from UniProtKB. The network reveals cancer-specific isoforms, enabling subtype-specific therapeutic screening and validation. To orient users [documentation overview].
 
 ### How to use this repository
 
@@ -49,37 +49,70 @@ This repository is organized into [organization description]. The workflow is wr
 
 ### Quick Start
 
-This quick start and steps were performed on [system specifications].
+This quick start and steps were performed on oython version 3.10 and CUDA version 11.6.
 
 #### Prerequisites
 
-1. **[Software 1]**
+1. **[AlphaFold2.3]**
    - Download and install from [link]
    - Configuration steps...
 
-2. **[Software 2]**
+2. **[PacBio]**
    - Installation instructions
    - Setup details...
 
+3. **[TransDecoder]**
+   - Installation instructions
+   - Setup details...
+
+4. **[TALON]**
+   - Installation instructions
+   - Setup details...
+  
+5. **[RSEM]**
+   - Installation instructions
+   - Setup details...
+
+6. **[STAR]**
+   - Installation instructions
+   - Setup details...
+
+7. **[ProteinVec]**
+   - Installation instructions
+   - Setup details...
+
+8. **[DeepLoc]**
+   - Installation instructions
+   - Setup details...
+9. **[Autodock]**
+   - Installation instructions
+   - Setup details...
+10. **[Foldseek]**
+   - Installation instructions
+   - Setup details...
+11. **[ColabFold]**
+   - Installation instructions
+   - Setup details...
 #### Installation Steps
 
 ```bash
 # Create environment
-conda create -n env_name
-conda activate env_name
+conda create -n 3disotf
+conda activate 3disotf
 
 # Install dependencies
-conda install package_name
+conda install 3DisoTransFold
 
 # Clone repository
-git clone https://github.com/username/repository
-cd repository
+git clone https://github.com/CityUHK-CompBio/3Diso-TransFold
+or git clone https://github.com/TJiangBio/3DisoGalaxy
+cd 3DisoGalaxy
 ```
 
 #### Running the Pipeline
 
 ```bash
-nextflow run main.nf --config config_file
+bash main.sh
 ```
 
 ## Documentation and Workflow
@@ -103,13 +136,13 @@ The pipeline comes with detailed documentation in the Wiki, including:
 
 ## Using Data Resources
 
-[Data usage description]
+Integrating multi-omics and AI methods to analyze alterative splicing-driven proteoform workflow generated with all the data listed as previous are available on Zenodo (10.5281/zenodo14865747). 
 
 ## Contributors
 
-- [Name 1]
-- [Name 2]
-- [Name 3]
+- Tao Jiang
+- Justin
+- Hao Hao
 
 This is a joint project between [collaborating organizations].
 
@@ -118,5 +151,5 @@ This is a joint project between [collaborating organizations].
 If you use this pipeline, please cite:
 
 ```
-Citation details
+Jiang, T., et al. (2025). The Structural Code of Breast Cancer Heterogeneity: Alternative Splicing-driven Proteoform Variation and Functional Diversification.
 ```
