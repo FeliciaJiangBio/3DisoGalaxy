@@ -1,4 +1,5 @@
-# <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="200">3DisoGalaxy
+# 3DisoGalaxy: A Breast Cancer Protein Isoform Structure Lanscape Study 
+<img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="300">
 
 
 
