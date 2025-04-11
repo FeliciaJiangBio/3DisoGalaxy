@@ -1,4 +1,5 @@
-# <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="300"> 3DisoGalaxy: A Breast Cancer Protein Isoform Structure Lanscape Study 
+# <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="300"> 
+# 3DisoGalaxy: A Breast Cancer Protein Isoform Structure Lanscape Study 
 
 
 
@@ -63,14 +64,24 @@ By combining BLASTP and HMMER methods, ORF sequences were predicted using TransD
 
 Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. 
 
-A case study version of the final network, **“3DisoGalaxy”**, can be accessed at  
-<a href="http://hkwanglab-compbio.com:3831/">
-    <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="200">
-</a>  
-and the **“3DisoTransFold”** pipeline for analyzing all data is available at  
-<a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
-    <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" width="200">
-</a>
+<p align="center">
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://hkwanglab-compbio.com:3831/">
+        <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="300"><br>
+        <b>3DisoGalaxy</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
+        <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" width="300"><br>
+        <b>3DisoTransFold</b>
+      </a>
+    </td>
+  </tr>
+</table>
+</p>
 
 
 ![3DisoTransFold](https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052)
