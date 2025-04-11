@@ -1,4 +1,5 @@
 # <img src="https://github.com/user-attachments/assets/4468c6a3-bbbe-4a6c-ade9-aab1437d010d" width="100">3DisoGalaxy
+![3DisoGalaxy](https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32)
 
 
 This Repository contains the complete software and documentation to execute the Long-Read-translation-structomics Workflow.
@@ -67,9 +68,11 @@ A case study version of the final network, **“3DisoGalaxy”**, can be accesse
 </a>  
 and the **“3DisoTransFold”** pipeline for analyzing all data is available at  
 <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
-    <img src="https://github.com/user-attachments/assets/1eaeaf5c-081d-4d76-b816-bca55d979ad3" width="100">
+    <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" width="100">
 </a>
 
+
+![3DisoTransFold](https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052)
 
 
 
