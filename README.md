@@ -84,8 +84,6 @@ Through the final network, the landscape of cancer-specific alternative splicing
 </p>
 
 
-![3DisoTransFold](https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052)
-
 
 
 ## Workflow Overview
