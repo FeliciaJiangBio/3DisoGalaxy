@@ -1,5 +1,5 @@
-# <img src="https://github.com/user-attachments/assets/4468c6a3-bbbe-4a6c-ade9-aab1437d010d" width="100">3DisoGalaxy
-![3DisoGalaxy](https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32)
+# <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="200">3DisoGalaxy
+
 
 
 This Repository contains the complete software and documentation to execute the Long-Read-translation-structomics Workflow.
@@ -64,11 +64,11 @@ Through the final network, the landscape of cancer-specific alternative splicing
 
 A case study version of the final network, **“3DisoGalaxy”**, can be accessed at  
 <a href="http://hkwanglab-compbio.com:3831/">
-    <img src="https://github.com/user-attachments/assets/d02384b5-b85f-4716-b657-7a122ca92d02" width="100">
+    <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="200">
 </a>  
 and the **“3DisoTransFold”** pipeline for analyzing all data is available at  
 <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
-    <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" width="100">
+    <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" width="200">
 </a>
 
 
