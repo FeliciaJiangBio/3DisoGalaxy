@@ -64,25 +64,38 @@ By combining BLASTP and HMMER methods, ORF sequences were predicted using TransD
 
 Through the final network, the landscape of cancer-specific alternative splicing-induced protein isoforms becomes available, allowing for the screening and validation of subtype-specific isoforms for therapeutic applications. 
 
-<p align="center">
+<div class="project-showcase">
 <table>
-  <tr>
-    <td align="center">
-      <a href="http://hkwanglab-compbio.com:3831/">
-        <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="300"><br>
-        <b>3DisoGalaxy</b>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
-        <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" width="300"><br>
-        <b>3DisoTransFold</b>
-      </a>
-    </td>
-  </tr>
+<tr>
+<td align="center">
+<a href="http://hkwanglab-compbio.com:3831/">
+<img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" alt="3DisoGalaxy">
+<br><b>3DisoGalaxy</b>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
+<img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" alt="3DisoTransFold">
+<br><b>3DisoTransFold</b>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="https://github.com/FeliciaJiangBio/3DisoTarget">
+<img src="https://github.com/user-attachments/assets/5d7aab79-7eec-4ae3-9a0a-8a3e8722fb2e" alt="3DisoTarget">
+<br><b>3DisoTarget</b>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/FeliciaJiangBio/3DisoDeepPF">
+<img src="https://github.com/user-attachments/assets/80d606fc-bc19-446c-b726-bb0d8e69b42c" alt="3DisoDeepPF">
+<br><b>3DisoDeepPF</b>
+</a>
+</td>
+</tr>
 </table>
-</p>
-
+</div>
 
 
 
